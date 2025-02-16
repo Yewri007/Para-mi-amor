@@ -14,5 +14,5 @@ function createSmallHeart() {
     }, 2000);
 }
 
-// Crear corazones pequeños cada 300ms
+
 setInterval(createSmallHeart, 300);

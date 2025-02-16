@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 * {
     margin: 0;
     padding: 0;
@@ -19,39 +19,39 @@ h1 {
     color: white;
     font-size: 2.5rem;
     position: absolute;
-    top:200px;
+    top:150px;
     font-family: Arial, sans-serif;
 }
 
-/* Corazón grande */
+
 .heart {
     position: relative;
-    width: 200px;  /* Aumentado de 100px a 200px */
-    height: 200px; /* Aumentado de 100px a 200px */
+    width: 200px;  
+    height: 200px; 
     background-color: red;
     transform: rotate(-45deg);
     animation: heartbeat 1s infinite;
-    filter: drop-shadow(0 0 10px red); /* Efecto de brillo */
-    border-radius: 10px; /* Más redondeado */
+    filter: drop-shadow(0 0 10px red); 
+    border-radius: 10px; 
 }
 
 .heart::before,
 .heart::after {
     content: '';
     position: absolute;
-    width: 200px;  /* Aumentado de 100px a 200px */
-    height: 200px; /* Aumentado de 100px a 200px */
+    width: 200px; 
+    height: 200px; 
     background-color: red;
     border-radius: 50%;
 }
 
 .heart::before {
-    top: -100px; /* Ajustado de -50px a -100px */
+    top: -100px; 
     left: 0;
 }
 
 .heart::after {
-    left: 100px; /* Ajustado de 50px a 100px */
+    left: 100px; 
     top: 0;
 }
 
@@ -64,7 +64,6 @@ h1 {
     }
 }
 
-/* Corazones pequeños */
 .small-heart {
     position: absolute;
     width: 20px;
